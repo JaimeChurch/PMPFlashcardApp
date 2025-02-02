@@ -1,0 +1,70 @@
+.flashcard_container {
+  display: flex;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.flashcard.MuiCard-root {
+  width: 800px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background-image: linear-gradient(to bottom, #f9efde 95%, #e0e0e0 95%);
+  background-size: 100% 20px;
+}
+
+.flashcard_content.MuiCardContent-root {
+  display: flex-box;
+  font-family: cursive;
+  line-height: 20px;
+}
+
+.question {
+  text-align: start;
+}
+
+.questionIndex{
+  margin-bottom: 1em;
+}
+
+.flashcard ul {
+  list-style: lower-alpha;
+  justify-items: left;
+}
+
+.flashcard ul li {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  font-size: .9em;
+}
+
+li button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+}
+
+.selected {
+  color: teal;
+  font-weight: bold;
+  text-shadow: lightblue 1px 1px;
+}
+
+.correct {
+  color: rgb(41, 179, 41);
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.incorrect {
+  color: red;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
