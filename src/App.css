@@ -14,6 +14,12 @@ body {
   display: flex;
 }
 
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 a {
   color: #646cff;
   text-decoration: inherit;
@@ -27,8 +33,32 @@ a:hover {
   font-size: 3em;
 }
 
+.title-link {
+  text-decoration: none;
+  color: black;
+}
+
 .navigation button {
   margin: .5em;
   margin-top: 1em;
   font-size: medium;
 }
+
+.button-container {
+  display: flex;
+  gap: 20px; 
+  margin-top: 20px;
+}
+
+.initial{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  margin-left: .3em;
+  margin-right: .3em;
+}
+
+.highScore {
+  margin-top: .6em;
+  font-size: 1.1em;
+}
+
