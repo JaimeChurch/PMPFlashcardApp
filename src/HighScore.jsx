@@ -6,11 +6,14 @@ import './flashcard.css';
 import './App.css';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 
+const awsAccessKey = import.meta.env.VITE_AWS_ACCESS_KEY;
+const awsSecretKey = import.meta.env.VITE_AWS_SECRET_KEY;
+
 const s3Client = new S3Client({
   region: 'us-east-1',
   credentials: {
-    accessKeyId: 'AKIAYS2NQ27J5VNJ3D6A',
-    secretAccessKey: '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'
+    accessKeyId: awsAccessKey,
+    secretAccessKey: awsSecretKey
   }
 });
 
