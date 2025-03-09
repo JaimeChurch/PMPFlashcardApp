@@ -129,6 +129,7 @@ function App() {
     setCorrectAnswers(0);
     setShowHighScores(false);
     setIsScoreSaved(false);
+    setInitials({ letter1: '', letter2: '', letter3: '' });
     fetchQuestions();
   }
 
@@ -141,6 +142,7 @@ function App() {
     setCorrectAnswers(0);
     setIsScoreSaved(false);
     setShowHighScores(false);
+    setInitials({ letter1: '', letter2: '', letter3: '' });
     fetchQuestions();
   }
 

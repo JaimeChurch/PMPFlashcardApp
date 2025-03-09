@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -19,14 +19,31 @@ const s3Client = new S3Client({
 
 function HighScore({ highScores, initials, setInitials, correctAnswers, setIsScoreSaved, setIsSaving, setHighScores, showHighScores, setShowHighScores }) {
 
+  const letter1Ref = useRef(null);
+  const letter2Ref = useRef(null);
+  const letter3Ref = useRef(null);
+
   const sortedHighScores = [...highScores].sort((a, b) => b.score - a.score);
 
   const handleInitialsChange = (event) => {
     const { name, value } = event.target;
-    setInitials(prevState => ({
-      ...prevState,
-      [name]: value.toUpperCase()
-    }));
+
+    // Only update if the value is empty or a single character
+    if (value.length <= 1) {
+      setInitials(prevState => ({
+        ...prevState,
+        [name]: value.toUpperCase()
+      }));
+
+      // Auto-focus next input when a character is entered
+      if (value.length === 1) {
+        if (name === 'letter1') {
+          letter2Ref.current.focus();
+        } else if (name === 'letter2') {
+          letter3Ref.current.focus();
+        }
+      }
+    }
   };
 
   const handleSaveScore = async () => {
@@ -88,6 +105,7 @@ function HighScore({ highScores, initials, setInitials, correctAnswers, setIsSco
           <h3>Enter Your Initials</h3>
           <div className='initials-input'>
             <input
+              ref={letter1Ref}
               type="text"
               name="letter1"
               value={initials.letter1}
@@ -98,6 +116,7 @@ function HighScore({ highScores, initials, setInitials, correctAnswers, setIsSco
               className='initial'
             />
             <input
+              ref={letter2Ref}
               type="text"
               name="letter2"
               value={initials.letter2}
@@ -108,6 +127,7 @@ function HighScore({ highScores, initials, setInitials, correctAnswers, setIsSco
               className='initial'
             />
             <input
+              ref={letter3Ref}
               type="text"
               name="letter3"
               value={initials.letter3}
@@ -117,7 +137,13 @@ function HighScore({ highScores, initials, setInitials, correctAnswers, setIsSco
               style={{ width: '2em', textAlign: 'center', textTransform: 'uppercase' }}
               className='initial'
             />
-            <Button variant="contained" onClick={handleSaveScore} style={{ marginBottom: '.7em', marginLeft: '10px' }}>Save Score</Button>
+            <Button
+              variant="contained"
+              onClick={handleSaveScore}
+              style={{ marginBottom: '.7em', marginLeft: '10px' }}
+            >
+              Save Score
+            </Button>
           </div>
         </div>
       )}
