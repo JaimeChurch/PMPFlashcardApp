@@ -4,20 +4,20 @@ import './flashcard.css';
 
 function Flashcard({ flashcard, isFlipped, selectedChoice, isCorrect, handleChoiceClick, currentIndex, hideIndex = false }) {
 
-    const answer = flashcard.choices.find(choice => choice.id === flashcard.answer);
+    const answer = flashcard.choices ? flashcard.choices.find(choice => choice.id === flashcard.answer) : null;
 
     return (
         <div className='flashcard_container'>
             <Card className={`flashcard ${isFlipped ? 'flipped' : ''}`}>
                 <CardContent className='flashcard_content'>
-                {!isFlipped ? (
+                    {!isFlipped ? (
                         <div className='content'>
                             {!hideIndex && currentIndex !== undefined && flashcard.choices && flashcard.choices.length > 0 && (
                                 <div className='questionIndex'>Question {currentIndex + 1} of 20</div>
                             )}
                             <div className="question-text">{flashcard.question}</div>
                             <ul>
-                                {flashcard.choices.map((choice) => (
+                                {flashcard.choices && flashcard.choices.map((choice) => (
                                     <li key={choice.id}>
                                         <button
                                             onClick={() => handleChoiceClick(choice.id)}
