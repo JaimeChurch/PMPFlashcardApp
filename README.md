@@ -89,3 +89,9 @@ Week 09
   - Moved questions.json to S3 bucket. 
   - Moved highScores.json to S3 bucket. 
   - Implemented PutObjectCommand function to access highScores.json
+
+Week 10
+  - Aligned text and background lines.
+  - Changed answer_index to UpperCase.
+  - Enlarged navigation buttons. 
+  - Added questions 101-200. 

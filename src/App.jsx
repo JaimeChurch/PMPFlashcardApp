@@ -38,7 +38,6 @@ function App() {
 
   const fetchHighScores = () => {
     setLoading(true);
-    // Add timestamp parameter to prevent browser/CDN caching
     fetch(`https://s3.us-east-1.amazonaws.com/pmp.questions/HighScores.json?timestamp=${new Date().getTime()}`)
       .then(response => {
         if (!response.ok) {
@@ -159,6 +158,7 @@ function App() {
                 isCorrect={null}
                 handleChoiceClick={() => { }}
                 currentIndex={currentIndex}
+                hideIndex={true}
               />
             ) : (
               <HighScore
@@ -195,6 +195,7 @@ function App() {
               isCorrect={null}
               handleChoiceClick={() => { }}
               currentIndex={currentIndex}
+              hideIndex={true}
             />
           ) : (
             <>

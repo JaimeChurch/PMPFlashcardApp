@@ -6,34 +6,36 @@
 
 .flashcard.MuiCard-root {
   width: 800px;
-  height: 500px;
+  height: 550px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
   background-image: linear-gradient(to bottom, #faf3e7 95%, #e0e0e0 95%);
-  background-size: 100% 28px;
+  background-size: 100% 30px;
 }
 
 .flashcard_content.MuiCardContent-root {
   display: flex-box;
   font-family: cursive;
-  line-height: 26px;
+  line-height: 30px;
 }
 
 .questionIndex {
-  margin-top: .6em;
-  margin-bottom: .2em;
+  margin-top: -0.7em;
+  margin-bottom: -0.1em;
+  font-size: .8em;
 }
 
+
 .flashcard ul {
-  list-style: lower-alpha;
+  list-style: upper-alpha;
   justify-items: left;
-  padding-top: .3em;
+  padding-top: .4em;
 }
 
 .flashcard ul li {
-  margin-top: 0.1em;
-  font-size: .88em;
+  font-size: .86em;
+  margin-bottom: -0.1em;
 }
 
 .flashcard_content ol {
@@ -50,6 +52,10 @@ li button {
   font: inherit;
 }
 
+.question-text{
+  padding-bottom: .1em;
+}
+
 .selected {
   color: rgb(13, 137, 137);
   text-shadow: lightblue 1px 1px;
@@ -59,16 +65,16 @@ li button {
   color: rgb(41, 179, 41);
   font-weight: bold;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-bottom: 2.2rem;
+  margin-top: .5rem;
 }
 
 .incorrect {
   color: red;
   font-weight: bold;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-bottom: 2.2rem;
+  margin-top: .5rem;
 }
 
 .choice-button {
@@ -86,12 +92,20 @@ li button {
   flex: 1;
 }
 
+.correct_answer{
+  font-size: 1.2em;
+  padding-top: .1em;
+  margin-bottom: 1.3em;
+}
+
 .highScore{
-  font-size: 1em;
-  margin-bottom: 10px;
+  font-size: 1.2em;
+  margin-top: 0em;
 }
 
 .highScoreH3{
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-size: 1.3em;
 }
+

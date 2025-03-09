@@ -2,7 +2,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import './flashcard.css';
 
-function Flashcard({ flashcard, isFlipped, selectedChoice, isCorrect, handleChoiceClick, currentIndex }) {
+function Flashcard({ flashcard, isFlipped, selectedChoice, isCorrect, handleChoiceClick, currentIndex, hideIndex = false }) {
 
     const answer = flashcard.choices.find(choice => choice.id === flashcard.answer);
 
@@ -10,10 +10,12 @@ function Flashcard({ flashcard, isFlipped, selectedChoice, isCorrect, handleChoi
         <div className='flashcard_container'>
             <Card className={`flashcard ${isFlipped ? 'flipped' : ''}`}>
                 <CardContent className='flashcard_content'>
-                    {!isFlipped ? (
+                {!isFlipped ? (
                         <div className='content'>
-                            <div className='questionIndex'>Question {currentIndex + 1} of 20</div>
-                            <div>{flashcard.question}</div>
+                            {!hideIndex && currentIndex !== undefined && flashcard.choices && flashcard.choices.length > 0 && (
+                                <div className='questionIndex'>Question {currentIndex + 1} of 20</div>
+                            )}
+                            <div className="question-text">{flashcard.question}</div>
                             <ul>
                                 {flashcard.choices.map((choice) => (
                                     <li key={choice.id}>
@@ -32,9 +34,11 @@ function Flashcard({ flashcard, isFlipped, selectedChoice, isCorrect, handleChoi
                             <div className={isCorrect ? 'correct' : 'incorrect'}>
                                 {isCorrect ? 'Correct!' : 'Incorrect!'}
                             </div>
-                            The correct answer is:
+                            <div className='correct_answer'>
+                                The correct answer is:
+                            </div>
                             <p>
-                                {answer ? `${answer.id}. ${answer.text}` : 'Answer not found'}
+                                {answer ? `${answer.id.toUpperCase()}. ${answer.text}` : 'Answer not found'}
                             </p>
                         </div>
                     )}
