@@ -948,7 +948,7 @@
         "choices": [
             {
                 "id": "a",
-                "text": "Discuss these communication requirements and available options with stakeholders to seek their input exclusively for your project instead of using existing tools in the organization"
+                "text": "Discuss these communication requirements and available choices with stakeholders to seek their input exclusively for your project instead of using existing tools in the organization"
             },
             {
                 "id": "b",
@@ -2302,1101 +2302,2301 @@
     {
         "id": 101,
         "question": "Your project has created new knowledge. Together with the team you have recorded challenges and problems, and recommended action plans associated with these situations. In which of the following project documents should you include this kind of content?",
-        "options": {
-            "A": "Project Management Information System (PMIS)",
-            "B": "Lessons learned repository",
-            "C": "Organizational process assets",
-            "D": "Lessons learned register"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Project Management Information System (PMIS)"
+            },
+            {
+                "id": "b",
+                "text": "Lessons learned repository"
+            },
+            {
+                "id": "c",
+                "text": "Organizational process assets"
+            },
+            {
+                "id": "d",
+                "text": "Lessons learned register"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 102,
         "question": "Your project team is involved in verifying that the project deliverables and work meet the requirements specified by key stakeholders necessary for final acceptance. Which of the following tools are they not using?",
-        "options": {
-            "A": "Inspection",
-            "B": "Quality audits",
-            "C": "Statistical sampling",
-            "D": "Testing and product evaluations"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Inspection"
+            },
+            {
+                "id": "b",
+                "text": "Quality audits"
+            },
+            {
+                "id": "c",
+                "text": "Statistical sampling"
+            },
+            {
+                "id": "d",
+                "text": "Testing and product evaluations"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 103,
         "question": "Which conflict resolution technique is most effective and can result in a win-win situation?",
-        "options": {
-            "A": "Compromise",
-            "B": "Collaborate",
-            "C": "Accommodate",
-            "D": "Withdraw"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Compromise"
+            },
+            {
+                "id": "b",
+                "text": "Collaborate"
+            },
+            {
+                "id": "c",
+                "text": "Accommodate"
+            },
+            {
+                "id": "d",
+                "text": "Withdraw"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 104,
         "question": "You are working as a project manager in a country where it is customary and legal to pay the police for private special services. Your supervisor tells you that in another country, that practice may be considered a bribe. What is the BEST way to proceed?",
-        "options": {
-            "A": "Pay the police for private protection services, because it is customary in the country they are operating in",
-            "B": "Do not pay the police for private protection services, because that would be a bribe",
-            "C": "Consult the Cost Management Plan about payment",
-            "D": "Ask your legal department for guidance"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Pay the police for private protection services, because it is customary in the country they are operating in"
+            },
+            {
+                "id": "b",
+                "text": "Do not pay the police for private protection services, because that would be a bribe"
+            },
+            {
+                "id": "c",
+                "text": "Consult the Cost Management Plan about payment"
+            },
+            {
+                "id": "d",
+                "text": "Ask your legal department for guidance"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 105,
         "question": "Which of the following is NOT a source of information about specific project constraints and assumptions?",
-        "options": {
-            "A": "The project scope management plan",
-            "B": "The project scope statement",
-            "C": "The requirements documentation/backlog",
-            "D": "The scope baseline"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "The project scope management plan"
+            },
+            {
+                "id": "b",
+                "text": "The project scope statement"
+            },
+            {
+                "id": "c",
+                "text": "The requirements documentation/backlog"
+            },
+            {
+                "id": "d",
+                "text": "The scope baseline"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 106,
         "question": "Which of the following is NOT an input to Control Quality?",
-        "options": {
-            "A": "Deliverables",
-            "B": "Test and evaluation documents",
-            "C": "Quality control measurements",
-            "D": "Approved change requests"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Deliverables"
+            },
+            {
+                "id": "b",
+                "text": "Test and evaluation documents"
+            },
+            {
+                "id": "c",
+                "text": "Quality control measurements"
+            },
+            {
+                "id": "d",
+                "text": "Approved change requests"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 107,
         "question": "You are managing a software project. You are partway through the project, and your team has just delivered a prototype of software increments. During the review an important stakeholder points out that he prefers to advance the release date of the software product. You think there is a high probability that the change control board would approve the change. What should you do?",
-        "options": {
-            "A": "Add the risk to the risk register and gather information about its impact",
-            "B": "Add the risk to the issue log and revisit it when there is more information",
-            "C": "Mitigate the risk by asking a team member to get familiar with the feature of the software that might be changed",
-            "D": "Schedule a meeting with the stakeholder to discuss the issue"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Add the risk to the risk register and gather information about its impact"
+            },
+            {
+                "id": "b",
+                "text": "Add the risk to the issue log and revisit it when there is more information"
+            },
+            {
+                "id": "c",
+                "text": "Mitigate the risk by asking a team member to get familiar with the feature of the software that might be changed"
+            },
+            {
+                "id": "d",
+                "text": "Schedule a meeting with the stakeholder to discuss the issue"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 108,
         "question": "You are managing a project using a firm fixed price (FFP) contract. The contract is structured so that your company will be paid a price of $85,000 to complete the work. There were $15,000 contribution and overhead cost that your company had to cover. It’s now two months into the project, which is 90% complete and your costs have just exceeded $70,000. What’s the BEST way to describe this situation?",
-        "options": {
-            "A": "The project doesn’t make any profit. The company will face a loss.",
-            "B": "The project has reached the point of total assumption",
-            "C": "The project manager has missed to submit a change request",
-            "D": "The project manager has overspent the budget"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "The project doesn’t make any profit. The company will face a loss."
+            },
+            {
+                "id": "b",
+                "text": "The project has reached the point of total assumption"
+            },
+            {
+                "id": "c",
+                "text": "The project manager has missed to submit a change request"
+            },
+            {
+                "id": "d",
+                "text": "The project manager has overspent the budget"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 109,
         "question": "If you are writing a request for additional funding, which form of communication should you choose?",
-        "options": {
-            "A": "Informal and horizontal",
-            "B": "Formal and vertical",
-            "C": "Informal and vertical",
-            "D": "Formal and horizontal"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Informal and horizontal"
+            },
+            {
+                "id": "b",
+                "text": "Formal and vertical"
+            },
+            {
+                "id": "c",
+                "text": "Informal and vertical"
+            },
+            {
+                "id": "d",
+                "text": "Formal and horizontal"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 110,
         "question": "Which of the following is the correct order of the Monitoring & Controlling processes for Scope Management?",
-        "options": {
-            "A": "First Validate Scope, then Control Scope",
-            "B": "They can happen in any order",
-            "C": "Both happen simultaneously",
-            "D": "First Control Scope, then Validate Scope"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "First Validate Scope, then Control Scope"
+            },
+            {
+                "id": "b",
+                "text": "They can happen in any order"
+            },
+            {
+                "id": "c",
+                "text": "Both happen simultaneously"
+            },
+            {
+                "id": "d",
+                "text": "First Control Scope, then Validate Scope"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 111,
         "question": "You are discussing economic models for project selection. What is the disadvantage of payback period or break even?",
-        "options": {
-            "A": "There is no disadvantage; many companies use these models for project selection",
-            "B": "They do not consider high profits in later periods",
-            "C": "They are simple to calculate",
-            "D": "They do not consider sunk costs"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "There is no disadvantage; many companies use these models for project selection"
+            },
+            {
+                "id": "b",
+                "text": "They do not consider high profits in later periods"
+            },
+            {
+                "id": "c",
+                "text": "They are simple to calculate"
+            },
+            {
+                "id": "d",
+                "text": "They do not consider sunk costs"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 112,
         "question": "Your project is in the closure phase, while the team is reviewing the project management plan to ensure that the project’s objectives are met. Which type(s) of meeting(s) is (are) used in the process?",
-        "options": {
-            "A": "Customer wrap-up meetings",
-            "B": "Lessons learned meetings",
-            "C": "Celebration meetings",
-            "D": "All of the above"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Customer wrap-up meetings"
+            },
+            {
+                "id": "b",
+                "text": "Lessons learned meetings"
+            },
+            {
+                "id": "c",
+                "text": "Celebration meetings"
+            },
+            {
+                "id": "d",
+                "text": "All of the above"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 113,
         "question": "You are managing a software project. During a walkthrough of newly implemented functionality, your team shows you a new feature that they have added to help make the workflow in the product easier for your client. The client didn’t ask for the feature, but it does look like it will make the product easier to use. The team developed it on their own time because they wanted to make the client happy. You know this change would have made it very probably not through change control. What is this an example of?",
-        "options": {
-            "A": "Gold plating",
-            "B": "Scope creep",
-            "C": "Schedule Variance",
-            "D": "Scope variance"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Gold plating"
+            },
+            {
+                "id": "b",
+                "text": "Scope creep"
+            },
+            {
+                "id": "c",
+                "text": "Schedule Variance"
+            },
+            {
+                "id": "d",
+                "text": "Scope variance"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 114,
         "question": "While identifying risks for a new construction project, you discover that a chemical you are using on your building cannot be applied in rainy conditions. You also learn that your project will be ready for the chemical application around the time when most of the rainfall happens in this part of the country. Since the project can’t be delayed until after the rainy season and you need to make sure the building gets the chemical coating, you decide that your team will just have to allow enough time in the schedule for nonworked rain days. This is an example of which strategy?",
-        "options": {
-            "A": "Mitigate",
-            "B": "Accept",
-            "C": "Exploit",
-            "D": "Transfer"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Mitigate"
+            },
+            {
+                "id": "b",
+                "text": "Accept"
+            },
+            {
+                "id": "c",
+                "text": "Exploit"
+            },
+            {
+                "id": "d",
+                "text": "Transfer"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 115,
         "question": "Which of the following is not an economic model for project selection?",
-        "options": {
-            "A": "Value analysis",
-            "B": "Internal Rate of Return",
-            "C": "Net Present Value",
-            "D": "Benefit cost ratio"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Value analysis"
+            },
+            {
+                "id": "b",
+                "text": "Internal Rate of Return"
+            },
+            {
+                "id": "c",
+                "text": "Net Present Value"
+            },
+            {
+                "id": "d",
+                "text": "Benefit cost ratio"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 116,
         "question": "Which of the following is NOT a tool or technique of Estimate Costs?",
-        "options": {
-            "A": "Cost aggregation",
-            "B": "Bottom-up",
-            "C": "Analogous",
-            "D": "Parametric"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Cost aggregation"
+            },
+            {
+                "id": "b",
+                "text": "Bottom-up"
+            },
+            {
+                "id": "c",
+                "text": "Analogous"
+            },
+            {
+                "id": "d",
+                "text": "Parametric"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 117,
         "question": "You are managing a project. During your risk identification interviews you learn that there are sources of overall project risks and non-event risks like technical complexity, unclear requirements, and ambiguous developments in regulatory frameworks. Where do you record the risks so that you don’t lose track of it?",
-        "options": {
-            "A": "In the probability and impact matrix",
-            "B": "In the risk report",
-            "C": "In the risk register",
-            "D": "In a list of triggers"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "In the probability and impact matrix"
+            },
+            {
+                "id": "b",
+                "text": "In the risk report"
+            },
+            {
+                "id": "c",
+                "text": "In the risk register"
+            },
+            {
+                "id": "d",
+                "text": "In a list of triggers"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 118,
         "question": "A project manager documents high level risks, assumptions and constraints based on current environment and expert judgment to propose a development and implementation approach. On which of the following documents is he working?",
-        "options": {
-            "A": "Risk report",
-            "B": "Requirements documentation",
-            "C": "Business case",
-            "D": "Project charter"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Risk report"
+            },
+            {
+                "id": "b",
+                "text": "Requirements documentation"
+            },
+            {
+                "id": "c",
+                "text": "Business case"
+            },
+            {
+                "id": "d",
+                "text": "Project charter"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 119,
         "question": "You are planning a project and want to establish clear expectations and guidelines for communication, decision making, conflict management and code of conduct among project team members. Which of the following is a result of this effort?",
-        "options": {
-            "A": "Team management plan",
-            "B": "Team charter",
-            "C": "Conflict resolution process",
-            "D": "Communications management plan"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Team management plan"
+            },
+            {
+                "id": "b",
+                "text": "Team charter"
+            },
+            {
+                "id": "c",
+                "text": "Conflict resolution process"
+            },
+            {
+                "id": "d",
+                "text": "Communications management plan"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 120,
         "question": "You are managing a large project. When is the BEST time to have project kick-off meetings?",
-        "options": {
-            "A": "When each deliverable is created",
-            "B": "At the beginning of the project",
-            "C": "At the beginning of project execution",
-            "D": "At the start of each phase"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "When each deliverable is created"
+            },
+            {
+                "id": "b",
+                "text": "At the beginning of the project"
+            },
+            {
+                "id": "c",
+                "text": "At the beginning of project execution"
+            },
+            {
+                "id": "d",
+                "text": "At the start of each phase"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 121,
         "question": "As a new assigned project manager you are responsible for aligning stakeholders’ expectations and gaining sustainable support for the project. Which of the following do you use?",
-        "options": {
-            "A": "Observation",
-            "B": "Facilitated workshops",
-            "C": "Product analysis",
-            "D": "Stakeholder analysis"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Observation"
+            },
+            {
+                "id": "b",
+                "text": "Facilitated workshops"
+            },
+            {
+                "id": "c",
+                "text": "Product analysis"
+            },
+            {
+                "id": "d",
+                "text": "Stakeholder analysis"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 122,
         "question": "You just have been hired by a contractor, who wants you to manage an agile project for one of their clients. The project team has been working for six weeks. You need to determine whether the team is ahead of or behind schedule. Which of the following tools and techniques is the BEST one for you to consult?",
-        "options": {
-            "A": "Iteration burndown chart",
-            "B": "Sprint planning",
-            "C": "Critical path method",
-            "D": "Schedule Baseline"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Iteration burndown chart"
+            },
+            {
+                "id": "b",
+                "text": "Sprint planning"
+            },
+            {
+                "id": "c",
+                "text": "Critical path method"
+            },
+            {
+                "id": "d",
+                "text": "Schedule Baseline"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 123,
         "question": "Your client has terminated your project before it is complete. Which of the following is true?",
-        "options": {
-            "A": "You must work with the team to investigate and document the reasons for termination",
-            "B": "You must update the project management plan to reflect this change",
-            "C": "You must keep the team working on the project to give your senior management time to talk to the client",
-            "D": "You must stop all work and release the team immediately"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "You must work with the team to investigate and document the reasons for termination"
+            },
+            {
+                "id": "b",
+                "text": "You must update the project management plan to reflect this change"
+            },
+            {
+                "id": "c",
+                "text": "You must keep the team working on the project to give your senior management time to talk to the client"
+            },
+            {
+                "id": "d",
+                "text": "You must stop all work and release the team immediately"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 124,
         "question": "A project manager conducts a workshop prior to planning with key stakeholders and experts to identify constraints, risks and assumptions in order to determine project limitations. In which process group/project management process is the team?",
-        "options": {
-            "A": "Planning/Plan Risk Management",
-            "B": "Planning/Define Scope",
-            "C": "Initiating/Develop Project Charter",
-            "D": "Planning/Identify Risks"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Planning/Plan Risk Management"
+            },
+            {
+                "id": "b",
+                "text": "Planning/Define Scope"
+            },
+            {
+                "id": "c",
+                "text": "Initiating/Develop Project Charter"
+            },
+            {
+                "id": "d",
+                "text": "Planning/Identify Risks"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 125,
         "question": "A project manager has slated a meeting to develop response strategies to deal with project threats. In the course of the exercise the team agrees that a threat is outside the scope of the project. What should the project manager do?",
-        "options": {
-            "A": "Close the risk",
-            "B": "Accept the risk",
-            "C": "Document it in the issue log",
-            "D": "Escalate the risk"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Close the risk"
+            },
+            {
+                "id": "b",
+                "text": "Accept the risk"
+            },
+            {
+                "id": "c",
+                "text": "Document it in the issue log"
+            },
+            {
+                "id": "d",
+                "text": "Escalate the risk"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 126,
         "question": "A project manager is faced with two team members who have conflicting opinions. One team member explains her side of the conflict. The other team member responds by saying, 'I know you’ll never really listen to my side, so let’s just go with her opinion and get back to work.' This is an example of:",
-        "options": {
-            "A": "Forcing",
-            "B": "Smoothing",
-            "C": "Withdrawal",
-            "D": "Compromise"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Forcing"
+            },
+            {
+                "id": "b",
+                "text": "Smoothing"
+            },
+            {
+                "id": "c",
+                "text": "Withdrawal"
+            },
+            {
+                "id": "d",
+                "text": "Compromise"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 127,
         "question": "Your team has identified an important project risk: you have a subcontractor that may not deliver on time. The team estimates that there is a 40% chance that the subcontractor will fail to deliver. If that happens, it will cost an additional $15,250 to pay your engineers to rewrite the work, and the delay will cost the company $20,000 in lost business. Another team member points out an opportunity to save money on another area to offset the risk: if an existing component can be adapted, it will save the project $4,500 in engineering costs. There is a 65% probability that the team can take advantage of that opportunity. What is the expected monetary value (EMV) of these two risks?",
-        "options": {
-            "A": "- $11,175",
-            "B": "- $14,100",
-            "C": "$6,100",
-            "D": "$39,750"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "- $11,175"
+            },
+            {
+                "id": "b",
+                "text": "- $14,100"
+            },
+            {
+                "id": "c",
+                "text": "$6,100"
+            },
+            {
+                "id": "d",
+                "text": "$39,750"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 128,
         "question": "All the technical work of the project is completed. Which of the following remains to be done?",
-        "options": {
-            "A": "Update project management plan",
-            "B": "Validate scope",
-            "C": "Evaluate and report that the business case is fulfilled",
-            "D": "Verify if customer requirements are met"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Update project management plan"
+            },
+            {
+                "id": "b",
+                "text": "Validate scope"
+            },
+            {
+                "id": "c",
+                "text": "Evaluate and report that the business case is fulfilled"
+            },
+            {
+                "id": "d",
+                "text": "Verify if customer requirements are met"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 129,
         "question": "Your company won a large contract with a demanding time frame, because the contract was awarded three months later than it was previously announced. You are in the process of creating the project charter and your manager requires to start the project immediately to complete the contract in time. What is the best you should do?",
-        "options": {
-            "A": "Review the contract and the statement of work",
-            "B": "Start working on the critical deliverables",
-            "C": "Set up an integrated change control process",
-            "D": "Show your manager the impact of proceeding without charter approval"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Review the contract and the statement of work"
+            },
+            {
+                "id": "b",
+                "text": "Start working on the critical deliverables"
+            },
+            {
+                "id": "c",
+                "text": "Set up an integrated change control process"
+            },
+            {
+                "id": "d",
+                "text": "Show your manager the impact of proceeding without charter approval"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 130,
         "question": "You are using brainstorming and interviewing to gather systematically information to determine whose interests should be taken into account throughout the project. This describes which of the following process?",
-        "options": {
-            "A": "Collect Requirements",
-            "B": "Identify Stakeholders",
-            "C": "Define Scope",
-            "D": "Identify Risks"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Collect Requirements"
+            },
+            {
+                "id": "b",
+                "text": "Identify Stakeholders"
+            },
+            {
+                "id": "c",
+                "text": "Define Scope"
+            },
+            {
+                "id": "d",
+                "text": "Identify Risks"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 131,
         "question": "You are reviewing performance goals to figure out how much bonus to pay to your team members. What document would you consult to find your team’s bonus plan?",
-        "options": {
-            "A": "The resource management plan",
-            "B": "The team charter",
-            "C": "The project’s budget",
-            "D": "The cost management plan"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "The resource management plan"
+            },
+            {
+                "id": "b",
+                "text": "The team charter"
+            },
+            {
+                "id": "c",
+                "text": "The project’s budget"
+            },
+            {
+                "id": "d",
+                "text": "The cost management plan"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 132,
         "question": "You’re managing a project to install several hundred air conditioner panels in a new office building. You have completed 360 panels out of a total of 900 planned panels, but according to your schedule you should have completed 400 of them. You budgeted costs of $100 per panel. You’ve spent $40,000 so far on the project. Which of the following BEST describes your situation?",
-        "options": {
-            "A": "The CPI is .90, which means your project is currently below budget",
-            "B": "The SPI is .40, which means your project is behind schedule",
-            "C": "The TCPI is .99, which is the minimum CPI you need to stay within budget",
-            "D": "The CV is -$4,000, which means your project is currently over your budget"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "The CPI is .90, which means your project is currently below budget"
+            },
+            {
+                "id": "b",
+                "text": "The SPI is .40, which means your project is behind schedule"
+            },
+            {
+                "id": "c",
+                "text": "The TCPI is .99, which is the minimum CPI you need to stay within budget"
+            },
+            {
+                "id": "d",
+                "text": "The CV is -$4,000, which means your project is currently over your budget"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 133,
         "question": "You are managing a complex project and you have implemented information management tools to support communities of practice/subject matter experts. What is the most important part in knowledge management?",
-        "options": {
-            "A": "Clear roles and responsibilities",
-            "B": "Implementing effective knowledge management tools and techniques",
-            "C": "Creating an atmosphere of trust so that people are motivated to share their knowledge",
-            "D": "Assignment of self-organizing teams with generalized specialists, who continuously adapt to changing environment and embrace constructive feedback"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Clear roles and responsibilities"
+            },
+            {
+                "id": "b",
+                "text": "Implementing effective knowledge management tools and techniques"
+            },
+            {
+                "id": "c",
+                "text": "Creating an atmosphere of trust so that people are motivated to share their knowledge"
+            },
+            {
+                "id": "d",
+                "text": "Assignment of self-organizing teams with generalized specialists, who continuously adapt to changing environment and embrace constructive feedback"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 134,
         "question": "You are conducting a status meeting and monitoring your risk register when you discover a risk that remains even after you implement all of your response strategies. What kind of risk is this and what should you do about it?",
-        "options": {
-            "A": "It’s a contingency reserve. You should only use it if the first risk occurs",
-            "B": "It’s a residual risk; if it is covered by your contingency reserve, you are fine",
-            "C": "It’s a residual risk; you need to plan a response strategy for it",
-            "D": "It’s a secondary risk; you don’t need to worry about it"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "It’s a contingency reserve. You should only use it if the first risk occurs"
+            },
+            {
+                "id": "b",
+                "text": "It’s a residual risk; if it is covered by your contingency reserve, you are fine"
+            },
+            {
+                "id": "c",
+                "text": "It’s a residual risk; you need to plan a response strategy for it"
+            },
+            {
+                "id": "d",
+                "text": "It’s a secondary risk; you don’t need to worry about it"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 135,
         "question": "You have completed your risk response planning and integrated the agreed upon activities into the project management plan. You start the execution of your project. In order to manage individual project risks and overall risk exposure of the project proactively, what should you do?",
-        "options": {
-            "A": "Manage your stakeholders carefully",
-            "B": "Continue to identify and analyze risks during the project",
-            "C": "Adapt your risk responses, update risk register and risk report",
-            "D": "Implement risk responses to ensure their execution"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Manage your stakeholders carefully"
+            },
+            {
+                "id": "b",
+                "text": "Continue to identify and analyze risks during the project"
+            },
+            {
+                "id": "c",
+                "text": "Adapt your risk responses, update risk register and risk report"
+            },
+            {
+                "id": "d",
+                "text": "Implement risk responses to ensure their execution"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 136,
         "question": "Your team has recommended a change to the Validate Scope process. What’s the first thing you should do?",
-        "options": {
-            "A": "Tell your team that the process has already been decided and they should follow it",
-            "B": "Submit a change request",
-            "C": "Implement the change",
-            "D": "Analyze the change versus the Project Management plan to see what the impact will be"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Tell your team that the process has already been decided and they should follow it"
+            },
+            {
+                "id": "b",
+                "text": "Submit a change request"
+            },
+            {
+                "id": "c",
+                "text": "Implement the change"
+            },
+            {
+                "id": "d",
+                "text": "Analyze the change versus the Project Management plan to see what the impact will be"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 137,
         "question": "Which of the following is NOT needed to develop a strategy for approaching stakeholders to enhance positive influences and mitigate potential negative impacts?",
-        "options": {
-            "A": "Stakeholder register",
-            "B": "Assumption log",
-            "C": "Stakeholder engagement plan",
-            "D": "Communications management plan"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Stakeholder register"
+            },
+            {
+                "id": "b",
+                "text": "Assumption log"
+            },
+            {
+                "id": "c",
+                "text": "Stakeholder engagement plan"
+            },
+            {
+                "id": "d",
+                "text": "Communications management plan"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 138,
         "question": "You manage a complex project with an adaptive approach. Which of the following should you do regarding your stakeholder management?",
-        "options": {
-            "A": "Identify a limited set of stakeholders to simplify your approach",
-            "B": "Invite stakeholders to project meetings and reviews, and post project results in public to promote transparency",
-            "C": "Assign clear responsibilities to engage with stakeholders through layers of management",
-            "D": "All of the above"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Identify a limited set of stakeholders to simplify your approach"
+            },
+            {
+                "id": "b",
+                "text": "Invite stakeholders to project meetings and reviews, and post project results in public to promote transparency"
+            },
+            {
+                "id": "c",
+                "text": "Assign clear responsibilities to engage with stakeholders through layers of management"
+            },
+            {
+                "id": "d",
+                "text": "All of the above"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 139,
         "question": "The success of your new project is paramount to the interests of your company. The project has a large stakeholder community. As you see it, when should you develop your stakeholder engagement plan?",
-        "options": {
-            "A": "After scope definition",
-            "B": "Stakeholder engagement is a means to reduce risks, so the stakeholder engagement plan is developed towards the end of the planning together with risk management",
-            "C": "Stakeholder engagement plan is developed early after the initial stakeholder community has been identified",
-            "D": "After requirements collection"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "After scope definition"
+            },
+            {
+                "id": "b",
+                "text": "Stakeholder engagement is a means to reduce risks, so the stakeholder engagement plan is developed towards the end of the planning together with risk management"
+            },
+            {
+                "id": "c",
+                "text": "Stakeholder engagement plan is developed early after the initial stakeholder community has been identified"
+            },
+            {
+                "id": "d",
+                "text": "After requirements collection"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 140,
         "question": "You’re managing a project, when your client tells you that an external problem happened, and now you have to meet an earlier deadline. One of your core team members heard that in a situation like this, you can use schedule compression by either crashing or fast-tracking the schedule, but he’s not sure which is which. What do you tell him?",
-        "options": {
-            "A": "When you fast-track a project, it always shortens the total duration of the project",
-            "B": "Crashing the project adds cost, while fast-tracking adds risk",
-            "C": "Crashing the project adds risk, while fast-tracking adds cost",
-            "D": "When you crash a project, it always shortens the total duration of the project"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "When you fast-track a project, it always shortens the total duration of the project"
+            },
+            {
+                "id": "b",
+                "text": "Crashing the project adds cost, while fast-tracking adds risk"
+            },
+            {
+                "id": "c",
+                "text": "Crashing the project adds risk, while fast-tracking adds cost"
+            },
+            {
+                "id": "d",
+                "text": "When you crash a project, it always shortens the total duration of the project"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 141,
         "question": "At a company event you have a conversation with a project manager. He tells you about his concerns to fail focusing on all the relationships to a large number of stakeholders in his project. What do you recommend to him?",
-        "options": {
-            "A": "To communicate with all stakeholders frequently",
-            "B": "To use sophisticated communication technology to use his limited time efficiently",
-            "C": "To enhance his communication skills",
-            "D": "To prioritize the stakeholders according to their influence, interest and involvement"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "To communicate with all stakeholders frequently"
+            },
+            {
+                "id": "b",
+                "text": "To use sophisticated communication technology to use his limited time efficiently"
+            },
+            {
+                "id": "c",
+                "text": "To enhance his communication skills"
+            },
+            {
+                "id": "d",
+                "text": "To prioritize the stakeholders according to their influence, interest and involvement"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 142,
         "question": "You are discussing together with other project managers in your company the question on which basis projects should be selected and prioritized. Which statement is correct?",
-        "options": {
-            "A": "Focus should be on projects with the highest benefit-cost ratio",
-            "B": "Projects should be selected based on the importance and potential of customers",
-            "C": "Selection of projects should consider their support to the company’s strategic goals",
-            "D": "Projects should be selected based on their potential risks"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Focus should be on projects with the highest benefit-cost ratio"
+            },
+            {
+                "id": "b",
+                "text": "Projects should be selected based on the importance and potential of customers"
+            },
+            {
+                "id": "c",
+                "text": "Selection of projects should consider their support to the company’s strategic goals"
+            },
+            {
+                "id": "d",
+                "text": "Projects should be selected based on their potential risks"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 143,
         "question": "John is managing a project. He has developed a comprehensive stakeholder engagement plan for his project. John needs to define the frequency of the plan review during execution. How often should the stakeholder engagement plan be reviewed?",
-        "options": {
-            "A": "There is no need to review the stakeholder management plan during the execution of the project",
-            "B": "On a monthly basis",
-            "C": "On a regular basis, to reflect changes to the stakeholder community",
-            "D": "On a weekly basis"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "There is no need to review the stakeholder management plan during the execution of the project"
+            },
+            {
+                "id": "b",
+                "text": "On a monthly basis"
+            },
+            {
+                "id": "c",
+                "text": "On a regular basis, to reflect changes to the stakeholder community"
+            },
+            {
+                "id": "d",
+                "text": "On a weekly basis"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 144,
         "question": "You’re managing a project that might have to contract out work, and you’re comparing the relative advantages and disadvantages of finding a seller versus having your company do the work itself. Which process are you in?",
-        "options": {
-            "A": "Plan Procurement Management",
-            "B": "Control Procurements",
-            "C": "Determine Budget",
-            "D": "Conduct Procurements"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Plan Procurement Management"
+            },
+            {
+                "id": "b",
+                "text": "Control Procurements"
+            },
+            {
+                "id": "c",
+                "text": "Determine Budget"
+            },
+            {
+                "id": "d",
+                "text": "Conduct Procurements"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 145,
         "question": "Project managers spend the largest portion of their time doing what?",
-        "options": {
-            "A": "Managing risks",
-            "B": "Working scheduled tasks",
-            "C": "Communicating",
-            "D": "Updating the project management plan"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Managing risks"
+            },
+            {
+                "id": "b",
+                "text": "Working scheduled tasks"
+            },
+            {
+                "id": "c",
+                "text": "Communicating"
+            },
+            {
+                "id": "d",
+                "text": "Updating the project management plan"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 146,
         "question": "A project manager has begun to work on the project charter. He reviewed the business need and product scope description given by the sponsor, made a market analysis and summarized the available lessons learned from previous projects. What should he consider to move forward?",
-        "options": {
-            "A": "The business case to justify the project",
-            "B": "To develop a summary budget estimate",
-            "C": "To document the approval requirements for the project",
-            "D": "The stakeholder management strategy"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "The business case to justify the project"
+            },
+            {
+                "id": "b",
+                "text": "To develop a summary budget estimate"
+            },
+            {
+                "id": "c",
+                "text": "To document the approval requirements for the project"
+            },
+            {
+                "id": "d",
+                "text": "The stakeholder management strategy"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 147,
         "question": "A production process has been defined as part of a manufacturing project. The process should produce metal items with a length of 10 cm. The control limits are 9.955cm and 10.045cm. The measurements made at the end of the process provided the following results: 10.033cm, 9.982cm, 9.995cm, 10.006cm, 9.970cm, 9.968cm, 9.963cm, 9.958cm, 9.962cm, 9.979cm, 9.959cm. What should be done?",
-        "options": {
-            "A": "The process is under control. It should not be adjusted",
-            "B": "A special cause should be investigated, the process should be adjusted",
-            "C": "The control limits should be adjusted",
-            "D": "The precision of the process is low. It should be adjusted"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "The process is under control. It should not be adjusted"
+            },
+            {
+                "id": "b",
+                "text": "A special cause should be investigated, the process should be adjusted"
+            },
+            {
+                "id": "c",
+                "text": "The control limits should be adjusted"
+            },
+            {
+                "id": "d",
+                "text": "The precision of the process is low. It should be adjusted"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 148,
         "question": "A project manager discusses the product’s roadmap to determine a release plan and establish the number of iterations to create a minimum viable product with the sponsor and other stakeholders. They also decide on the available resources for the project. Which of the following describes best this activity?",
-        "options": {
-            "A": "Create the project schedule",
-            "B": "Perform Monte Carlo simulation",
-            "C": "Resource optimization",
-            "D": "Agile release planning"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Create the project schedule"
+            },
+            {
+                "id": "b",
+                "text": "Perform Monte Carlo simulation"
+            },
+            {
+                "id": "c",
+                "text": "Resource optimization"
+            },
+            {
+                "id": "d",
+                "text": "Agile release planning"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 149,
         "question": "You found the following Earned Value Analysis information for a recently closed out project: SPI = 0.71, CPI = 1.0. Which of the following is correct?",
-        "options": {
-            "A": "The project's deliverables have been completed. The project came in on schedule but over budget",
-            "B": "The project's deliverables have been completed. The project was ahead of schedule but on budget",
-            "C": "The project has been cancelled while it was executed. At that time the project was behind schedule and on budget",
-            "D": "The project's deliverables have been completed. The project was behind schedule but on budget"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "The project's deliverables have been completed. The project came in on schedule but over budget"
+            },
+            {
+                "id": "b",
+                "text": "The project's deliverables have been completed. The project was ahead of schedule but on budget"
+            },
+            {
+                "id": "c",
+                "text": "The project has been cancelled while it was executed. At that time the project was behind schedule and on budget"
+            },
+            {
+                "id": "d",
+                "text": "The project's deliverables have been completed. The project was behind schedule but on budget"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 150,
         "question": "A project manager performs a feasibility study to define the scope and develop a first estimate to commit financial resources. Which process group is he in?",
-        "options": {
-            "A": "Initiating",
-            "B": "Planning",
-            "C": "Executing",
-            "D": "Closing"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Initiating"
+            },
+            {
+                "id": "b",
+                "text": "Planning"
+            },
+            {
+                "id": "c",
+                "text": "Executing"
+            },
+            {
+                "id": "d",
+                "text": "Closing"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 151,
         "question": "Which of the following statements provides the best description of the relationship between quality and grade?",
-        "options": {
-            "A": "Grade is a category or a class given to products having different functional requirements but the same need for quality",
-            "B": "Low grade is always a problem; low quality may be overcome by a good rework and repair process",
-            "C": "Both quality and grade can often be improved through intelligent measuring, testing and examining",
-            "D": "Low quality is always a problem as it bears on the ability of a product to meet requirements; low grade may be acceptable"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Grade is a category or a class given to products having different functional requirements but the same need for quality"
+            },
+            {
+                "id": "b",
+                "text": "Low grade is always a problem; low quality may be overcome by a good rework and repair process"
+            },
+            {
+                "id": "c",
+                "text": "Both quality and grade can often be improved through intelligent measuring, testing and examining"
+            },
+            {
+                "id": "d",
+                "text": "Low quality is always a problem as it bears on the ability of a product to meet requirements; low grade may be acceptable"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 152,
         "question": "Your globally spread virtual team is executing the project. The project is progressing too slowly. Which measure is most likely to immediately speed up the project?",
-        "options": {
-            "A": "Formal written communication",
-            "B": "Temporary colocation of key team members at a suitable place",
-            "C": "Daily phone conferences and detailed reporting",
-            "D": "A team meeting at a location convenient to all team members"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Formal written communication"
+            },
+            {
+                "id": "b",
+                "text": "Temporary colocation of key team members at a suitable place"
+            },
+            {
+                "id": "c",
+                "text": "Daily phone conferences and detailed reporting"
+            },
+            {
+                "id": "d",
+                "text": "A team meeting at a location convenient to all team members"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 153,
         "question": "You decide to procure some standardized products which are available in identical grade and quality from many suppliers. What should be included in the procurement documents to ensure that their responses will be comparable?",
-        "options": {
-            "A": "A statement of work specifying the requested deliverables in detail to allow vendors submission of bids",
-            "B": "The approved project scope statement, the WBS which should be broken down to Work Package level and the WBS dictionary",
-            "C": "A statement of work describing the needs of the project in sufficient detail to enable suppliers to make appropriate proposals",
-            "D": "The Scope baseline and detailed resource requirements"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "A statement of work specifying the requested deliverables in detail to allow vendors submission of bids"
+            },
+            {
+                "id": "b",
+                "text": "The approved project scope statement, the WBS which should be broken down to Work Package level and the WBS dictionary"
+            },
+            {
+                "id": "c",
+                "text": "A statement of work describing the needs of the project in sufficient detail to enable suppliers to make appropriate proposals"
+            },
+            {
+                "id": "d",
+                "text": "The Scope baseline and detailed resource requirements"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 154,
         "question": "You are managing a product development project when the Vice-President of the company calls you to discuss an opportunity to manage a critical company project which can boost your career and professional experience. Your development project is due to complete in 4 weeks. What is your best response to the Vice-President?",
-        "options": {
-            "A": "You would surely like to manage both the projects together as latter is a critical project for the company",
-            "B": "You would use a compression technique to finish your current project faster and then take up this new project",
-            "C": "Since the new project is more critical to the organization, you could take this project immediately and your earlier project can be managed by someone else. It is coming to a close anyway.",
-            "D": "The project should first develop an approved project charter which would formally initiate the project"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "You would surely like to manage both the projects together as latter is a critical project for the company"
+            },
+            {
+                "id": "b",
+                "text": "You would use a compression technique to finish your current project faster and then take up this new project"
+            },
+            {
+                "id": "c",
+                "text": "Since the new project is more critical to the organization, you could take this project immediately and your earlier project can be managed by someone else. It is coming to a close anyway."
+            },
+            {
+                "id": "d",
+                "text": "The project should first develop an approved project charter which would formally initiate the project"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 155,
         "question": "Your project is executed for a customer under a Fixed Price contract. Your customer just informed you that the project scope has to be refined. You agree that the requested actions are beneficial to the project, but believe that they lead to a major change increasing the project scope. What should you do next?",
-        "options": {
-            "A": "Accept the request of the customer. Document the additional costs of the change and invoice these to the customer at appropriate rates",
-            "B": "Reject the change. It is not necessary to implement the change",
-            "C": "Check the contract, the scope statement and other documents related to the project and the contract. Implement ADR (Alternative Dispute Resolution) procedures if the conflict cannot be resolved otherwise",
-            "D": "Perform Variance Analysis to get all the numbers you need to communicate the problem to the Change Control Board which then will have to make the best decision regarding the customer request"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Accept the request of the customer. Document the additional costs of the change and invoice these to the customer at appropriate rates"
+            },
+            {
+                "id": "b",
+                "text": "Reject the change. It is not necessary to implement the change"
+            },
+            {
+                "id": "c",
+                "text": "Check the contract, the scope statement and other documents related to the project and the contract. Implement ADR (Alternative Dispute Resolution) procedures if the conflict cannot be resolved otherwise"
+            },
+            {
+                "id": "d",
+                "text": "Perform Variance Analysis to get all the numbers you need to communicate the problem to the Change Control Board which then will have to make the best decision regarding the customer request"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 156,
         "question": "Which of the following is NOT an input to Develop Schedule?",
-        "options": {
-            "A": "Project schedule network diagrams",
-            "B": "Schedule baseline",
-            "C": "Activity list",
-            "D": "Resource calendars"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Project schedule network diagrams"
+            },
+            {
+                "id": "b",
+                "text": "Schedule baseline"
+            },
+            {
+                "id": "c",
+                "text": "Activity list"
+            },
+            {
+                "id": "d",
+                "text": "Resource calendars"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 157,
         "question": "In a traditionally drawn decision tree, a circle represents ___________.",
-        "options": {
-            "A": "A decision to which an Expected Monetary Value may be assigned to calculate the most likely pay-off",
-            "B": "An end of a branch to which an Expected Monetary Value can be assigned",
-            "C": "A decision to which no Expected Monetary Value can be assigned so that a likely pay-off cannot be shown",
-            "D": "A chance to which an Expected Monetary Value may be assigned to calculate a likely pay-off"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "A decision to which an Expected Monetary Value may be assigned to calculate the most likely pay-off"
+            },
+            {
+                "id": "b",
+                "text": "An end of a branch to which an Expected Monetary Value can be assigned"
+            },
+            {
+                "id": "c",
+                "text": "A decision to which no Expected Monetary Value can be assigned so that a likely pay-off cannot be shown"
+            },
+            {
+                "id": "d",
+                "text": "A chance to which an Expected Monetary Value may be assigned to calculate a likely pay-off"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 158,
         "question": "You as the project manager have subcontracted work to a service company. Which of the following tools is the best choice to assure that this company will be able to meet the quality requirements of the project?",
-        "options": {
-            "A": "Quality assurance",
-            "B": "Product inspection",
-            "C": "Audit",
-            "D": "Service level agreement"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Quality assurance"
+            },
+            {
+                "id": "b",
+                "text": "Product inspection"
+            },
+            {
+                "id": "c",
+                "text": "Audit"
+            },
+            {
+                "id": "d",
+                "text": "Service level agreement"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 159,
         "question": "When are bidder conferences performed?",
-        "options": {
-            "A": "Prior to the submission of a bid or proposal by the bidder",
-            "B": "After the submission of bids or proposals, but before technical sales meetings with bidders",
-            "C": "Together with the contract award",
-            "D": "After the submission of bids or proposals, but before contract award"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Prior to the submission of a bid or proposal by the bidder"
+            },
+            {
+                "id": "b",
+                "text": "After the submission of bids or proposals, but before technical sales meetings with bidders"
+            },
+            {
+                "id": "c",
+                "text": "Together with the contract award"
+            },
+            {
+                "id": "d",
+                "text": "After the submission of bids or proposals, but before contract award"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 160,
         "question": "Your construction project is in the execution phase, when the customer requires that the pillars in his building have to be built with a diameter of 30cm. The statement of work says that the pillars are 25cm. What is the best option?",
-        "options": {
-            "A": "Implement the change after it has been accepted",
-            "B": "Tell the customer that the work is already underway and you can’t accept his requirement",
-            "C": "Advise the team to implement the request",
-            "D": "Look for a cheaper contractor to minimize the cost increase"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Implement the change after it has been accepted"
+            },
+            {
+                "id": "b",
+                "text": "Tell the customer that the work is already underway and you can’t accept his requirement"
+            },
+            {
+                "id": "c",
+                "text": "Advise the team to implement the request"
+            },
+            {
+                "id": "d",
+                "text": "Look for a cheaper contractor to minimize the cost increase"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 161,
         "question": "You are executing a planned activity to reduce the probability of negative consequences associated with a project risk. Which process are you conducting?",
-        "options": {
-            "A": "Plan Risk Responses",
-            "B": "Monitor and Control Project Work",
-            "C": "Perform Qualitative Risk Analysis",
-            "D": "Implement Risk Responses"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Plan Risk Responses"
+            },
+            {
+                "id": "b",
+                "text": "Monitor and Control Project Work"
+            },
+            {
+                "id": "c",
+                "text": "Perform Qualitative Risk Analysis"
+            },
+            {
+                "id": "d",
+                "text": "Implement Risk Responses"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 162,
         "question": "You are holding a formal, approved document that defines how the project is executed, monitored, and controlled. This document is:",
-        "options": {
-            "A": "The project management plan",
-            "B": "The work breakdown structure",
-            "C": "The scope statement",
-            "D": "The performance measurement baseline"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "The project management plan"
+            },
+            {
+                "id": "b",
+                "text": "The work breakdown structure"
+            },
+            {
+                "id": "c",
+                "text": "The scope statement"
+            },
+            {
+                "id": "d",
+                "text": "The performance measurement baseline"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 163,
         "question": "You manage a manufacturing project. You recently were approached by stakeholders with various change requests. The changes were analyzed on their impact and approved. You updated the project management plan and informed the stakeholders. What do you next?",
-        "options": {
-            "A": "Incorporate the changes into the scope statement",
-            "B": "Incorporate the changes into the baseline to track the implementation",
-            "C": "Make sure to track the changes against the baseline to know if the required additional budget and time are appropriate",
-            "D": "Use the work authorization system to ensure the work is performed"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Incorporate the changes into the scope statement"
+            },
+            {
+                "id": "b",
+                "text": "Incorporate the changes into the baseline to track the implementation"
+            },
+            {
+                "id": "c",
+                "text": "Make sure to track the changes against the baseline to know if the required additional budget and time are appropriate"
+            },
+            {
+                "id": "d",
+                "text": "Use the work authorization system to ensure the work is performed"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 164,
         "question": "You and your team are in the process of reassessing risks. A new risk had occurred and a work around plan was developed and agreed with the stakeholders. What do you next?",
-        "options": {
-            "A": "Get approval for the corrective action",
-            "B": "Implement the corrective action",
-            "C": "Analyze the risk",
-            "D": "Update the risk register"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Get approval for the corrective action"
+            },
+            {
+                "id": "b",
+                "text": "Implement the corrective action"
+            },
+            {
+                "id": "c",
+                "text": "Analyze the risk"
+            },
+            {
+                "id": "d",
+                "text": "Update the risk register"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 165,
         "question": "You’ve been assigned as Senior Project Manager in a company developing electronical devices. The business objective financial sustainability focuses on long term profits and surpluses to pay for new innovative product developments. Which of the following project selection methods would be best in alignment with the companies strategy?",
-        "options": {
-            "A": "Payback period",
-            "B": "Net Present Value",
-            "C": "Break-Even",
-            "D": "Benefit-Cost-Ratio"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Payback period"
+            },
+            {
+                "id": "b",
+                "text": "Net Present Value"
+            },
+            {
+                "id": "c",
+                "text": "Break-Even"
+            },
+            {
+                "id": "d",
+                "text": "Benefit-Cost-Ratio"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 166,
         "question": "You are the project manager of a consultancy project. There are several changes that have to be made, and you are in the process of how to utilize team members in order to implement them. What should you do?",
-        "options": {
-            "A": "Slater a team meeting and invite the stakeholders in order to reach consensus on the changes",
-            "B": "Document the changes and put them through change control",
-            "C": "Reject the changes because they will delay the project",
-            "D": "Prioritize the changes and announce them to the team"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Slater a team meeting and invite the stakeholders in order to reach consensus on the changes"
+            },
+            {
+                "id": "b",
+                "text": "Document the changes and put them through change control"
+            },
+            {
+                "id": "c",
+                "text": "Reject the changes because they will delay the project"
+            },
+            {
+                "id": "d",
+                "text": "Prioritize the changes and announce them to the team"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 167,
         "question": "You are managing an IT project which is halfway through its completion. You have developed several corrective actions which have been approved. Now you put them in place. Which process are you performing?",
-        "options": {
-            "A": "Direct and Manage Project Work",
-            "B": "Plan Risk Responses",
-            "C": "Monitor and Control Project Work",
-            "D": "Develop Project Management Plan"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Direct and Manage Project Work"
+            },
+            {
+                "id": "b",
+                "text": "Plan Risk Responses"
+            },
+            {
+                "id": "c",
+                "text": "Monitor and Control Project Work"
+            },
+            {
+                "id": "d",
+                "text": "Develop Project Management Plan"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 168,
         "question": "A part of your team is reviewing the quality requirements and the results from quality control measurements to ensure that organizational quality standards are used. What process they are performing?",
-        "options": {
-            "A": "Plan Quality Management",
-            "B": "Direct and Manage Project Work",
-            "C": "Manage Quality",
-            "D": "Control Quality"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Plan Quality Management"
+            },
+            {
+                "id": "b",
+                "text": "Direct and Manage Project Work"
+            },
+            {
+                "id": "c",
+                "text": "Manage Quality"
+            },
+            {
+                "id": "d",
+                "text": "Control Quality"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 169,
         "question": "Your team is executing the project management plan. A major stakeholder is not satisfied with the project’s progress, because he added new requirements which have been approved. Which is the best course of action?",
-        "options": {
-            "A": "Implement the approved change request",
-            "B": "Notify the stakeholder about the changes",
-            "C": "Deescalate the situation",
-            "D": "Update the project management plan"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Implement the approved change request"
+            },
+            {
+                "id": "b",
+                "text": "Notify the stakeholder about the changes"
+            },
+            {
+                "id": "c",
+                "text": "Deescalate the situation"
+            },
+            {
+                "id": "d",
+                "text": "Update the project management plan"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 170,
         "question": "A project manager is in the final closure phase of the project. Which of the following should he do FIRST as part of the project closure activity?",
-        "options": {
-            "A": "Get formal sign off from the customer to confirm customer acceptance of final deliverable",
-            "B": "Measure customer satisfaction as a key performance indicator of project's success",
-            "C": "Hand off completed project deliverables to operations and management",
-            "D": "Measure project scope against project management plan"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Get formal sign off from the customer to confirm customer acceptance of final deliverable"
+            },
+            {
+                "id": "b",
+                "text": "Measure customer satisfaction as a key performance indicator of project's success"
+            },
+            {
+                "id": "c",
+                "text": "Hand off completed project deliverables to operations and management"
+            },
+            {
+                "id": "d",
+                "text": "Measure project scope against project management plan"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 171,
         "question": "You capture customer feedback to measure customer satisfaction after deliverable acceptance. In which process group do you perform this activity?",
-        "options": {
-            "A": "Monitoring and controlling",
-            "B": "Closing",
-            "C": "Executing",
-            "D": "Close Project or Phase"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Monitoring and controlling"
+            },
+            {
+                "id": "b",
+                "text": "Closing"
+            },
+            {
+                "id": "c",
+                "text": "Executing"
+            },
+            {
+                "id": "d",
+                "text": "Close Project or Phase"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 172,
         "question": "The project is in the starting blocks and you have just been assigned as the project manager. What would help best to align your global spread core team and functional managers?",
-        "options": {
-            "A": "Memo from your sponsor to the team and their managers informing them that they work for you now",
-            "B": "Kick-off meeting",
-            "C": "State-of-the-art communication technologies",
-            "D": "Project charter"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Memo from your sponsor to the team and their managers informing them that they work for you now"
+            },
+            {
+                "id": "b",
+                "text": "Kick-off meeting"
+            },
+            {
+                "id": "c",
+                "text": "State-of-the-art communication technologies"
+            },
+            {
+                "id": "d",
+                "text": "Project charter"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 173,
         "question": "You have a conversation with a project manager colleague. He took over a project in its final phase. He tells you that his customer seems reluctant to issue final acceptance. What do you advise him?",
-        "options": {
-            "A": "To consult the project management plan for closure",
-            "B": "To look at the project closure guidelines in organizational process assets",
-            "C": "To review the formal documentation of accepted deliverables",
-            "D": "To meet with the customer to learn about his issues"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "To consult the project management plan for closure"
+            },
+            {
+                "id": "b",
+                "text": "To look at the project closure guidelines in organizational process assets"
+            },
+            {
+                "id": "c",
+                "text": "To review the formal documentation of accepted deliverables"
+            },
+            {
+                "id": "d",
+                "text": "To meet with the customer to learn about his issues"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 174,
         "question": "A project manager presents a performance report to the steering committee which captures project results over the last 3 months to see if the performance is improving or deteriorating. Which of the following reports does he use?",
-        "options": {
-            "A": "Earned value",
-            "B": "Status report",
-            "C": "Forecast reporting",
-            "D": "Trend Report"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Earned value"
+            },
+            {
+                "id": "b",
+                "text": "Status report"
+            },
+            {
+                "id": "c",
+                "text": "Forecast reporting"
+            },
+            {
+                "id": "d",
+                "text": "Trend Report"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 175,
         "question": "According to the project plan, a contractor is scheduled to deliver some software components today afternoon. A regular payment is due to be made to this contractor tomorrow. You and your project team received a note this morning informing you that the software delivery will be delayed by 3 weeks. What should you do?",
-        "options": {
-            "A": "You should make the payment and reschedule the project plan",
-            "B": "You should delay the payment also for 3 weeks",
-            "C": "You should conduct a meeting with the contractor to resolve the delivery issues before making the payment",
-            "D": "You must immediately find another contractor"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "You should make the payment and reschedule the project plan"
+            },
+            {
+                "id": "b",
+                "text": "You should delay the payment also for 3 weeks"
+            },
+            {
+                "id": "c",
+                "text": "You should conduct a meeting with the contractor to resolve the delivery issues before making the payment"
+            },
+            {
+                "id": "d",
+                "text": "You must immediately find another contractor"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 176,
         "question": "You update the risk register and risk response plan by identifying new risks, assessing existing risks and evaluating the effectiveness of the risk processes, in order to manage the impact of risks on your project. Which process are you performing?",
-        "options": {
-            "A": "Direct and Manage Work",
-            "B": "Plan Risk Responses",
-            "C": "Develop Project Management Plan",
-            "D": "Control Risks"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Direct and Manage Work"
+            },
+            {
+                "id": "b",
+                "text": "Plan Risk Responses"
+            },
+            {
+                "id": "c",
+                "text": "Develop Project Management Plan"
+            },
+            {
+                "id": "d",
+                "text": "Control Risks"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 177,
         "question": "You analyze defects and order them by their frequency of occurrence to focus corrective action. Which tool and technique do you use?",
-        "options": {
-            "A": "Affinity diagram",
-            "B": "Pareto chart",
-            "C": "Control chart",
-            "D": "Cause and effect diagram"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Affinity diagram"
+            },
+            {
+                "id": "b",
+                "text": "Pareto chart"
+            },
+            {
+                "id": "c",
+                "text": "Control chart"
+            },
+            {
+                "id": "d",
+                "text": "Cause and effect diagram"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 178,
         "question": "What is a constructive change?",
-        "options": {
-            "A": "A change request that helps improving the project and its product, service or result and is discussed generally in a friendly style",
-            "B": "A direction by the buyer or an action taken by the seller that the other party considers an undocumented change to the contract",
-            "C": "A change request which will lead to the re-construction of an older version of the project performance baseline by the contractor",
-            "D": "An ad-hoc change mandated by the project customer in a public construction project"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "A change request that helps improving the project and its product, service or result and is discussed generally in a friendly style"
+            },
+            {
+                "id": "b",
+                "text": "A direction by the buyer or an action taken by the seller that the other party considers an undocumented change to the contract"
+            },
+            {
+                "id": "c",
+                "text": "A change request which will lead to the re-construction of an older version of the project performance baseline by the contractor"
+            },
+            {
+                "id": "d",
+                "text": "An ad-hoc change mandated by the project customer in a public construction project"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 179,
         "question": "You consult the procurement management plan to find out about prequalified sellers to request seller proposals. Which process are you in?",
-        "options": {
-            "A": "Plan Procurement Management",
-            "B": "Define Scope",
-            "C": "Conduct Procurements",
-            "D": "Control Procurement"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Plan Procurement Management"
+            },
+            {
+                "id": "b",
+                "text": "Define Scope"
+            },
+            {
+                "id": "c",
+                "text": "Conduct Procurements"
+            },
+            {
+                "id": "d",
+                "text": "Control Procurement"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 180,
         "question": "You are the manager of your company's PMO. The company is running many concurrent projects; most of them share a resource pool of technical staff. This morning you received a message that the resource pool members will be unable to perform as planned for the next months because the overall work load has grown too high and while delays are adding up, the morale of the staff is going down. What should you do next?",
-        "options": {
-            "A": "Do nothing related to the described problem unless you are explicitly requested by the organizations upper management. Supporting decision making on the level on which project portfolio management is done, is not the PMO’s business",
-            "B": "Implement an enterprise project management software solution which is able to level the human resources across the various projects and to model resource assignment on a percentage level to optimize resource utilization",
-            "C": "Evaluate project management software which supports planning and scheduling across enterprise-wide project portfolios. Avoid managing the availability of shared resources for all the projects because this is not the business of a PMO",
-            "D": "Ensure that quantitative information for all projects is being made available in a uniform and reliable manner and verify that the project management methodology is accepted and followed to. Then consolidate the information to get an understanding of the problems related with the use of shared resources"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Do nothing related to the described problem unless you are explicitly requested by the organizations upper management. Supporting decision making on the level on which project portfolio management is done, is not the PMO’s business"
+            },
+            {
+                "id": "b",
+                "text": "Implement an enterprise project management software solution which is able to level the human resources across the various projects and to model resource assignment on a percentage level to optimize resource utilization"
+            },
+            {
+                "id": "c",
+                "text": "Evaluate project management software which supports planning and scheduling across enterprise-wide project portfolios. Avoid managing the availability of shared resources for all the projects because this is not the business of a PMO"
+            },
+            {
+                "id": "d",
+                "text": "Ensure that quantitative information for all projects is being made available in a uniform and reliable manner and verify that the project management methodology is accepted and followed to. Then consolidate the information to get an understanding of the problems related with the use of shared resources"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 181,
         "question": "You are managing a software project, which is half completed and on track. The lead programmer informs you about a work package which is causing trouble. It is not clear who is responsible for it, and there are discussions what work should be performed. Which of the following would be best to help in this situation?",
-        "options": {
-            "A": "Scope management plan",
-            "B": "WBS dictionary",
-            "C": "Product analysis",
-            "D": "Activity list"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Scope management plan"
+            },
+            {
+                "id": "b",
+                "text": "WBS dictionary"
+            },
+            {
+                "id": "c",
+                "text": "Product analysis"
+            },
+            {
+                "id": "d",
+                "text": "Activity list"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 182,
         "question": "Which of the following items is not an input to the Direct and Manage Project Work Process?",
-        "options": {
-            "A": "Risk report",
-            "B": "Work Performance Data",
-            "C": "Approved Changes",
-            "D": "Standardized guidelines and work instructions"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Risk report"
+            },
+            {
+                "id": "b",
+                "text": "Work Performance Data"
+            },
+            {
+                "id": "c",
+                "text": "Approved Changes"
+            },
+            {
+                "id": "d",
+                "text": "Standardized guidelines and work instructions"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 183,
         "question": "A part of your team is reviewing the organization’s quality templates to create a document which is needed to evaluate the achievement of quality objectives. On which document are they working?",
-        "options": {
-            "A": "Quality Management Plan",
-            "B": "Quality Report",
-            "C": "Test and Evaluation Documents",
-            "D": "Test Plan"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Quality Management Plan"
+            },
+            {
+                "id": "b",
+                "text": "Quality Report"
+            },
+            {
+                "id": "c",
+                "text": "Test and Evaluation Documents"
+            },
+            {
+                "id": "d",
+                "text": "Test Plan"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 184,
         "question": "Which statement describes best configuration control?",
-        "options": {
-            "A": "It is focused on selection and identification of configuration item",
-            "B": "Configuration Control is focused on the specification of the deliverables and the processes of a project",
-            "C": "It communicates all approved and rejected changes to the stakeholders",
-            "D": "Configuration Control is focused on identifying, documenting and controlling changes to the project and product baselines"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "It is focused on selection and identification of configuration item"
+            },
+            {
+                "id": "b",
+                "text": "Configuration Control is focused on the specification of the deliverables and the processes of a project"
+            },
+            {
+                "id": "c",
+                "text": "It communicates all approved and rejected changes to the stakeholders"
+            },
+            {
+                "id": "d",
+                "text": "Configuration Control is focused on identifying, documenting and controlling changes to the project and product baselines"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 185,
         "question": "Your team has resolved two major issues last month. You have informed the relevant stakeholders. A team member is not sure about the procedure for issue management. Where would the team member find the information?",
-        "options": {
-            "A": "Organizational process assets",
-            "B": "Performance reports",
-            "C": "Work performance information",
-            "D": "Project management plan"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Organizational process assets"
+            },
+            {
+                "id": "b",
+                "text": "Performance reports"
+            },
+            {
+                "id": "c",
+                "text": "Work performance information"
+            },
+            {
+                "id": "d",
+                "text": "Project management plan"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 186,
         "question": "A project manager has created a project charter in collaboration with the sponsor. They have documented the project’s justification, objectives, high-level requirements and risks, milestone schedule and summary budget. In order to get the project approved, what should they concentrate on?",
-        "options": {
-            "A": "Business case and description of the economic benefit of the project",
-            "B": "Description of stakeholders and their potential influence",
-            "C": "Project approval requirements",
-            "D": "Project and product requirements"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Business case and description of the economic benefit of the project"
+            },
+            {
+                "id": "b",
+                "text": "Description of stakeholders and their potential influence"
+            },
+            {
+                "id": "c",
+                "text": "Project approval requirements"
+            },
+            {
+                "id": "d",
+                "text": "Project and product requirements"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 187,
         "question": "Which of the following is not an input to Manage Quality?",
-        "options": {
-            "A": "Quality management plan",
-            "B": "Quality control measurements",
-            "C": "Quality metrics",
-            "D": "Deliverables"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Quality management plan"
+            },
+            {
+                "id": "b",
+                "text": "Quality control measurements"
+            },
+            {
+                "id": "c",
+                "text": "Quality metrics"
+            },
+            {
+                "id": "d",
+                "text": "Deliverables"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 188,
         "question": "You perform root cause analysis and use quality improvement methods to implement specific design guidelines for your project’s product. These activities belong to which of the following processes?",
-        "options": {
-            "A": "Direct and Manage Project Work",
-            "B": "Control Quality",
-            "C": "Manage Quality",
-            "D": "Manage Knowledge"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Direct and Manage Project Work"
+            },
+            {
+                "id": "b",
+                "text": "Control Quality"
+            },
+            {
+                "id": "c",
+                "text": "Manage Quality"
+            },
+            {
+                "id": "d",
+                "text": "Manage Knowledge"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 189,
         "question": "Which of the following is not an activity performed in the closing process group?",
-        "options": {
-            "A": "Formal acceptance",
-            "B": "Collect project records",
-            "C": "Audit project success or failure",
-            "D": "Transfer product to operations"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Formal acceptance"
+            },
+            {
+                "id": "b",
+                "text": "Collect project records"
+            },
+            {
+                "id": "c",
+                "text": "Audit project success or failure"
+            },
+            {
+                "id": "d",
+                "text": "Transfer product to operations"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 190,
         "question": "Cost benefit analysis, weighted scoring models, payback period and internal rate of return are examples of ______.",
-        "options": {
-            "A": "Benefits measurement methods when selecting a project",
-            "B": "Integral parts of project control",
-            "C": "Ways to ensure stakeholder acceptance",
-            "D": "Mathematical models (constrained optimization)"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Benefits measurement methods when selecting a project"
+            },
+            {
+                "id": "b",
+                "text": "Integral parts of project control"
+            },
+            {
+                "id": "c",
+                "text": "Ways to ensure stakeholder acceptance"
+            },
+            {
+                "id": "d",
+                "text": "Mathematical models (constrained optimization)"
+            }
+        ],
         "answer": "a"
     },
     {
         "id": 191,
         "question": "You are mentoring a young project manager closing his project. He tells you that he feels a strong pinch in his closing activities, because he is already assigned to a new project with a very demanding schedule. He has gained final acceptance and transferred the final deliverable to the customer. He intends to obtain administrative closure, collate the lessons learned and then take over his new project. What do you tell him?",
-        "options": {
-            "A": "You support him in his view",
-            "B": "He should delegate the administrative closure to save time",
-            "C": "To archive the project documents",
-            "D": "To start his new project as soon as possible because he transferred the product after final acceptance"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "You support him in his view"
+            },
+            {
+                "id": "b",
+                "text": "He should delegate the administrative closure to save time"
+            },
+            {
+                "id": "c",
+                "text": "To archive the project documents"
+            },
+            {
+                "id": "d",
+                "text": "To start his new project as soon as possible because he transferred the product after final acceptance"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 192,
         "question": "You are performing Earned Value technique on your project. After budget approval, additional costs have been identified, which made the project more expensive one month ago. The additional costs meanwhile have been paid, and it is expected that for the remaining duration of the project, costs will be as budgeted. In this case, which is the best formula to calculate EAC (Estimate at Completion)?",
-        "options": {
-            "A": "EAC = AC + ETC / CV",
-            "B": "EAC = BAC – CV",
-            "C": "EAC = BAC / CPI",
-            "D": "You cannot compute the EAC"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "EAC = AC + ETC / CV"
+            },
+            {
+                "id": "b",
+                "text": "EAC = BAC – CV"
+            },
+            {
+                "id": "c",
+                "text": "EAC = BAC / CPI"
+            },
+            {
+                "id": "d",
+                "text": "You cannot compute the EAC"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 193,
         "question": "A change request in a project has been rejected some weeks ago. Yesterday, the project manager found out that a stakeholder knew of the change request, but not of the rejection. In order to avoid such a situation, rejected change requests should be consistently communicated to stakeholders through which process?",
-        "options": {
-            "A": "Validate Scope",
-            "B": "Manage Communications",
-            "C": "Manage Quality",
-            "D": "Perform Integrated Change Control"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Validate Scope"
+            },
+            {
+                "id": "b",
+                "text": "Manage Communications"
+            },
+            {
+                "id": "c",
+                "text": "Manage Quality"
+            },
+            {
+                "id": "d",
+                "text": "Perform Integrated Change Control"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 194,
         "question": "On a meeting you had the opportunity to talk to a peer project manager. He told you that for his project in his today’s status report the cumulated actual costs are 15% below the budgeted cumulated costs. What do you think?",
-        "options": {
-            "A": "The project will probably be completed with total costs remaining under budget until the end",
-            "B": "He has planned his project with an appropriate buffer",
-            "C": "The information given to you by the colleague is not sufficient to assess project performance",
-            "D": "Original cost forecasting and budgeting for the project must have been poor to allow this variance"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "The project will probably be completed with total costs remaining under budget until the end"
+            },
+            {
+                "id": "b",
+                "text": "He has planned his project with an appropriate buffer"
+            },
+            {
+                "id": "c",
+                "text": "The information given to you by the colleague is not sufficient to assess project performance"
+            },
+            {
+                "id": "d",
+                "text": "Original cost forecasting and budgeting for the project must have been poor to allow this variance"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 195,
         "question": "Which of the following is NOT an output of the Manage Quality process?",
-        "options": {
-            "A": "Updates of the quality management plan",
-            "B": "Recommendations for quality process and product improvements",
-            "C": "Test and evaluation documents",
-            "D": "Quality control measurements"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Updates of the quality management plan"
+            },
+            {
+                "id": "b",
+                "text": "Recommendations for quality process and product improvements"
+            },
+            {
+                "id": "c",
+                "text": "Test and evaluation documents"
+            },
+            {
+                "id": "d",
+                "text": "Quality control measurements"
+            }
+        ],
         "answer": "d"
     },
     {
         "id": 196,
         "question": "Which of the following statements is a correct example of using project information in monitoring and controlling processes?",
-        "options": {
-            "A": "Work performance information is an output of Monitor and Control Project Work",
-            "B": "Work performance information is an input to Control Costs",
-            "C": "Work performance data is an input to Validate Scope",
-            "D": "Work performance data is an input to Monitor and Control Project Work"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Work performance information is an output of Monitor and Control Project Work"
+            },
+            {
+                "id": "b",
+                "text": "Work performance information is an input to Control Costs"
+            },
+            {
+                "id": "c",
+                "text": "Work performance data is an input to Validate Scope"
+            },
+            {
+                "id": "d",
+                "text": "Work performance data is an input to Monitor and Control Project Work"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 197,
         "question": "A project manager is reviewing historical information to develop a mathematical model to predict total project costs using specific parameters which are characteristic for the project. This activity is part of which of the following processes?",
-        "options": {
-            "A": "Estimate Costs",
-            "B": "Parametric estimating",
-            "C": "Determine Budget",
-            "D": "Forecasting"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Estimate Costs"
+            },
+            {
+                "id": "b",
+                "text": "Parametric estimating"
+            },
+            {
+                "id": "c",
+                "text": "Determine Budget"
+            },
+            {
+                "id": "d",
+                "text": "Forecasting"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 198,
         "question": "A project manager is reviewing and updating the stakeholder engagement plan to ensure that engagement strategies and plans reflect stakeholder relationships and community. Which of the following processes is he performing?",
-        "options": {
-            "A": "Manage Stakeholder Engagement",
-            "B": "Monitor Stakeholder Engagement",
-            "C": "Manage Team",
-            "D": "Plan Stakeholder Engagement"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Manage Stakeholder Engagement"
+            },
+            {
+                "id": "b",
+                "text": "Monitor Stakeholder Engagement"
+            },
+            {
+                "id": "c",
+                "text": "Manage Team"
+            },
+            {
+                "id": "d",
+                "text": "Plan Stakeholder Engagement"
+            }
+        ],
         "answer": "b"
     },
     {
         "id": 199,
         "question": "A project manager is closing his project in time. The customer has confirmed the acceptance of the completed project scope, the final product has been transferred to the relevant stakeholders, and the final report has been created and distributed. However, the lessons learned required by the PMO have not been completed and transferred to the lessons learned repository. What is the status of the project?",
-        "options": {
-            "A": "The project is complete because the final report has been communicated",
-            "B": "The project is complete because the customer has accepted all the deliverables",
-            "C": "The project is not complete until all project and product deliverables are complete and accepted",
-            "D": "The project is complete because it has reached its finish date"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "The project is complete because the final report has been communicated"
+            },
+            {
+                "id": "b",
+                "text": "The project is complete because the customer has accepted all the deliverables"
+            },
+            {
+                "id": "c",
+                "text": "The project is not complete until all project and product deliverables are complete and accepted"
+            },
+            {
+                "id": "d",
+                "text": "The project is complete because it has reached its finish date"
+            }
+        ],
         "answer": "c"
     },
     {
         "id": 200,
         "question": "A project manager is collecting work performance information to create performance reports, which he is presenting as a dashboard. These activities are part of which process?",
-        "options": {
-            "A": "Manage Communications",
-            "B": "Direct and Manage Project Work",
-            "C": "Monitor Communications",
-            "D": "Monitor and Control Project Work"
-        },
+        "choices": [
+            {
+                "id": "a",
+                "text": "Manage Communications"
+            },
+            {
+                "id": "b",
+                "text": "Direct and Manage Project Work"
+            },
+            {
+                "id": "c",
+                "text": "Monitor Communications"
+            },
+            {
+                "id": "d",
+                "text": "Monitor and Control Project Work"
+            }
+        ],
         "answer": "d"
     }
 ]

@@ -34,22 +34,31 @@ function HighScore({ highScores, initials, setInitials, correctAnswers, setIsSco
     const initialsString = `${initials.letter1}.${initials.letter2}.${initials.letter3}.`;
     const percentageScore = Math.round((correctAnswers / 20) * 100);
     const newScore = { initials: initialsString, score: percentageScore };
-  
+
+    const sortedCurrentScores = [...highScores].sort((a, b) => b.score - a.score);
+
+    let updatedScores;
+
+    if (sortedCurrentScores.length < 10) {
+      updatedScores = [...sortedCurrentScores, newScore].sort((a, b) => b.score - a.score);
+    } else if (percentageScore > sortedCurrentScores[9].score) {
+      updatedScores = [...sortedCurrentScores.slice(0, 9), newScore].sort((a, b) => b.score - a.score);
+    } else {
+      updatedScores = sortedCurrentScores;
+    }
+
     const params = {
       Bucket: 'pmp.questions',
       Key: 'HighScores.json',
-      Body: JSON.stringify([...highScores, newScore].sort((a, b) => b.score - a.score).slice(0, 10)),
+      Body: JSON.stringify(updatedScores),
       ContentType: 'application/json'
     };
-  
+
     try {
       const command = new PutObjectCommand(params);
       const response = await s3Client.send(command);
       setIsScoreSaved(true);
-      setHighScores(prevScores => {
-        const updatedScores = [...prevScores, newScore].sort((a, b) => b.score - a.score).slice(0, 10);
-        return updatedScores;
-      });
+      setHighScores(updatedScores);
     } catch (err) {
       console.error('Error saving high score:', err);
       alert('Failed to save high score. Please try again.');
